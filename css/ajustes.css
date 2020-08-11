@@ -1,0 +1,19 @@
+/*
+Seletores:
+	Classe: .nomeClasse;
+	ID: #nomeID;
+	nome_da_Tag;
+*/
+
+img{
+	margin: 0 auto;
+	display: block;
+}
+
+.centro{
+	text-align: center;
+}
+
+h5{
+	color: #103EA5
+}

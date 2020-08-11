@@ -3,32 +3,66 @@
 <head>
 	<meta charset="utf-8">
 	<title>Minha Segunda Página</title>
+	 <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Ajustes CSS-->
+      <link type="text/css" rel="stylesheet" href="css/ajustes.css"  media="screen,projection"/>
+
+
 </head>
 <body>
-	<nav style="background-color: #292626">
-		<h1>Olá mundo 01!</h1>
+	<div class="container">
+		<nav>
+			<div class="nav-wrapper">
+		      <a href="#" class="brand-logo">Olá Mundo!</a>
+		      <ul id="nav-mobile" class="right hide-on-med-and-down">
+		        <li><a href="#meu_nome">Meu Nome</a></li>
+		        <li><a href="#noticia">Notícias</a></li>
+		        <li><a href="#rodape">Rodapé</a></li>
+		      </ul>
+		    </div>
 	</nav>
 
-	<header style="background-color:#21A513 ">
-		<h1>IFTO produz 20 mil litros de álcool em gel para doação à comunidade tocantinense</h1>
-		<h5>Benefício direto</h5>
-		<h3>Coordenadores falam da importância de contribuir no combate à Covid-19</h3>
-	</header>
-	
-	<div style="background-color:#3B67C0">
-		<img src="img\imagem.jpeg">
-	<article style="background-color: #DE5410">
-		<p>O Instituto Federal do Tocantins (IFTO), entre tantos objetivos, tem o propósito de contribuir com a transformação de realidades, levando benefício direto à população através da oferta de ensino e do desenvolvimento de pesquisas inovadoras.</p>
-		<p style="color:#1FE832">Diante do cenário difícil enfrentado pela sociedade durante a pandemia da Covid-19, o IFTO cumpre seu papel social de modo a auxiliar no controle da transmissão do novo coronavírus.</p>
-		<p>Nesse sentido, grupos de servidores e estudantes produziram 20 mil litros de gel de álcool etílico glicerinado 76% GL, que serão distribuídos gratuitamente à comunidade tocantinense, de norte a sul do Estado. A produção foi feita utilizando a infraestrutura, insumos e equipamentos do IFTO e teve o apoio da Secretaria de Educação Profissional e Tecnológica (Setec).</p>
-		<p>Participaram do processo de fabricação as unidades de Araguaína, Araguatins, Gurupi, Paraíso do Tocantins e Palmas.</p>
-	</article>
+		<div class="card-panel">
+			<img src="img\logoif.png">
+		</div>
+
+		<header class="card-panel" id="meu_nome">
+			<h3 class="centro">Luan Bortoli</h3>
+			<h4 class="centro">IFTO produz 20 mil litros de álcool em gel para doação à comunidade tocantinense</h4>
+			<h5>Benefício direto</h5>
+		</header>
+		
+		<div class="card-panel" id="noticia">
+			<h5>Coordenadores falam da importância de contribuir no combate à Covid-19</h5>
+		<article>
+			<p>O Instituto Federal do Tocantins (IFTO), entre tantos objetivos, tem o propósito de contribuir com a transformação de realidades, levando benefício direto à população através da oferta de ensino e do desenvolvimento de pesquisas inovadoras.</p>
+			<p>Diante do cenário difícil enfrentado pela sociedade durante a pandemia da Covid-19, o IFTO cumpre seu papel social de modo a auxiliar no controle da transmissão do novo coronavírus.</p>
+			<p>Nesse sentido, grupos de servidores e estudantes produziram 20 mil litros de gel de álcool etílico glicerinado 76% GL, que serão distribuídos gratuitamente à comunidade tocantinense, de norte a sul do Estado. A produção foi feita utilizando a infraestrutura, insumos e equipamentos do IFTO e teve o apoio da Secretaria de Educação Profissional e Tecnológica (Setec).</p>
+			<p>Participaram do processo de fabricação as unidades de Araguaína, Araguatins, Gurupi, Paraíso do Tocantins e Palmas.</p>
+		</article>
+		</div>
+		
+		<footer class="page-footer" id="rodape">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Curso FIC</h5>
+                <p class="grey-text text-lighten-4">Luan Bortoli</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright
+            </div>
+          </div>
+        </footer>
 	</div>
-	<footer style="background-color: #2BD1BF">
-		<h1>Curso FIC</h1>
-	</footer>
-
-
-
 </body>
 </html>
